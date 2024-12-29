@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Alt School</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            padding-left: -25%;
+        }
+
+    </style>
+  </head>
+  <body>
+<section class="note">
+  <h1>Alt School Application Form</h1>
+      <h1>Signup</h1>
+      <div>
+        <p>Take the next steps to apply at AltSchool Africa</p>
+      </div>
+      
+</section>
+    <form action="/signup" method="post">
+      <p>
+        <label>First Name:</label><br />
+        <input type="text" name="first_name" />
+      </p>
+      <p>
+        <label>Last Name:</label><br />
+        <input type="text" name="Last_name" />
+      </p>
+      <p>
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <label>
+      <p>
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="stevelli@gmail.com" />
+      </p>
+      <p>
+        <label>Phone Number:</label><br />
+        <input type="tel" name="phone" />
+      </p>
+      <p>
+        <label>Password:</label><br />
+        <input type="password" name="password" />
+      </p>
+      <p>
+        <label>Country</label>
+        <select>
+            <option>Nigeria</option>
+            <option>United State</option>
+            <option>France</option>
+            <option>Spain</option>
+            <option>Mexico</option>
+            <option>South Africa</option>
+            <option>Kanya</option>
+            <option>Ghana</option>
+            <option>Canada</option>
+            <option>Angola</option>
+            <option>Sierra Leone</option>
+            <option>Yemen</option>
+            <option>Zambia</option>
+            <option>Venezuela</option>
+        </select>
+      </p>
+      <p>
+        <label>
+            <input type="checkbox" value="terms">
+            I agree to the <a href="/terms">Terms and Condition</a>
+        </label>
+      </p>
+      <p>
+        <button>Sign up</button>
+        <button type="reset">Reset form</button>
+      </p>
+    </form>
+  </body>
+</html>

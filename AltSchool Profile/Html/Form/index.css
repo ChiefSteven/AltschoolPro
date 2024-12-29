@@ -1,0 +1,6 @@
+.note{
+    display: flexbox;
+    color: purple;
+    font-style: italic;
+    padding-left: -50%;
+}
